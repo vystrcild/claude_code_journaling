@@ -1,4 +1,4 @@
-# Journal Claude Code
+# Claude Code Journaling
 
 A set of prompts and agents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that process daily journal entries into structured monthly reviews from multiple perspectives.
 
