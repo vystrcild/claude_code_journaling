@@ -1,5 +1,7 @@
 # Claude Code Journaling
 
+> **Read the full article:** [I let Claude Code read 14 years of my daily journals](https://vystrcil.com/blog/ai-journaling/)
+
 A set of prompts and agents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that process daily journal entries into structured monthly reviews from multiple perspectives.
 
 ## How It Works
