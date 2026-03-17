@@ -1,0 +1,32 @@
+# names.txt — Name anonymization mappings for anonymize.py
+#
+# Copy this file to names.txt and replace with your own mappings.
+# names.txt is git-ignored and stays on your machine.
+#
+# Format: RealName → Label
+# - One mapping per line
+# - Lines starting with # are comments
+# - Blank lines are ignored
+# - Replacement is case-insensitive
+# - Longer names are replaced before shorter ones automatically
+#   (so "Anna" won't corrupt "Annabelle" if both are listed)
+#
+# Tips:
+# - List full names AND first names separately if you use both
+# - Include nicknames and common variations
+# - Include relationship labels if you use them (e.g. "Dr. Smith → Doctor-A")
+
+# --- People ---
+John Smith → Person-A
+John → Person-A
+Sarah → Person-B
+Dr. Chen → Doctor-A
+Mom → Family-A
+Dad → Family-B
+
+# --- Places (optional) ---
+# San Francisco → City-A
+# New York → City-B
+
+# --- Organizations (optional) ---
+# Acme Corp → Company-A
